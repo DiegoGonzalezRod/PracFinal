@@ -1,0 +1,124 @@
+/* app/css/inicio.css */
+
+/* Título principal */
+.home-title {
+  font-size: 3rem; /* Aumenté el tamaño */
+  font-weight: 900; /* Aumenté el grosor de la fuente */
+  color: #f39c12; /* Naranja brillante */
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Arial', sans-serif; /* Cambié la fuente a Arial para algo más limpio */
+  transition: letter-spacing 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.home-title:hover {
+  color: #e74c3c; /* Rojo brillante al hacer hover */
+  letter-spacing: 4px;
+  transform: scale(1.1); /* Escala el título al hacer hover */
+}
+
+/* Descripción */
+.home-description {
+  font-size: 1.25rem; /* Aumenté el tamaño del texto */
+  color: #34495e; /* Gris oscuro con tintes azulados */
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 800px; /* Aumenté el ancho máximo */
+  line-height: 1.6;
+}
+
+/* Imagen */
+.home-image {
+  border-radius: 12px; /* Bordes más redondeados */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-image:hover {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
+}
+
+/* Botones */
+.home-buttons {
+  display: flex;
+  gap: 1.5rem; /* Mayor espacio entre los botones */
+  justify-content: center;
+}
+
+.home-button {
+  padding: 1rem 2rem; /* Botones más grandes */
+  font-size: 1.2rem; /* Fuente más grande */
+  font-weight: 700; /* Negrita */
+  border-radius: 50px; /* Bordes redondeados completamente */
+  cursor: pointer; /* Asegura que sea clickeable */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-button:hover {
+  transform: translateY(-5px); /* Botón más elevado al hacer hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa en hover */
+}
+
+/* Botón amarillo */
+.home-button-yellow {
+  background-color: #f1c40f; /* Amarillo brillante */
+  color: white;
+}
+
+.home-button-yellow:hover {
+  background-color: #f39c12; /* Amarillo más oscuro en hover */
+}
+
+/* Botón cyan */
+.home-button-cyan {
+  background-color: #00bcd4; /* Cyan vibrante */
+  color: white;
+}
+
+.home-button-cyan:hover {
+  background-color: #0097a7; /* Cyan oscuro en hover */
+}
+
+/* Botón morado */
+.home-button-purple {
+  background-color: #9b59b6; /* Morado */
+  color: white;
+}
+
+.home-button-purple:hover {
+  background-color: #8e44ad; /* Morado oscuro en hover */
+}
+
+/* Botón rojo */
+.home-button-red {
+  background-color: #e74c3c; /* Rojo brillante */
+  color: white;
+}
+
+.home-button-red:hover {
+  background-color: #c0392b; /* Rojo oscuro en hover */
+}
+
+/* Botón verde */
+.home-button-green {
+  background-color: #2ecc71; /* Verde brillante */
+  color: white;
+}
+
+.home-button-green:hover {
+  background-color: #27ae60; /* Verde oscuro en hover */
+}
+
+/* Botón clientes (nuevo) */
+.home-button-client {
+  background-color: #8e44ad; /* Morado oscuro */
+  color: white;
+}
+
+.home-button-client:hover {
+  background-color: #9b59b6; /* Morado claro al hacer hover */
+}
